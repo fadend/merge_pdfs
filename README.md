@@ -1,8 +1,11 @@
 # Merge PDF files into a single PDF
 
-Usage:
+Example usage:
 
 ```
+python3 -m venv python
+cd python
+bin/pip3 install git+https://github.com/fadend/merge_pdfs
 bin/python3 -m merge_pdfs.merge_pdfs -o merged.pdf *.pdf
 ```
 
